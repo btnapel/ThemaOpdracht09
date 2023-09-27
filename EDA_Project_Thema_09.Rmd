@@ -1,0 +1,17 @@
+---
+title: "EDA_Project_Thema_09"
+author: "Bert ten Napel"
+date: "2023-09-27"
+output: html_document
+---
+```{r}
+# Create vector with all packages that are required
+packages <- c("tidyverse", "pander", "ggplot2", "data.table")
+# Load each package in the vector with lapply
+invisible(lapply(packages, library, character.only = TRUE))
+# Drop the packages variable from memory since it will not be used again
+remove(packages)
+
+panderOptions("table.continues", "")
+panderOptions("table.continues.affix", "(table continues below)")
+```

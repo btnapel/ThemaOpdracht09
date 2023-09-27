@@ -1,0 +1,15 @@
+Variable Name,Type,Description,Units
+Age,Integer,age: age in years,years
+Sex,Categorical,sex: sex (1 = male; 0 = female),
+Chest pain type,Categorical,"cp: chest pain type (1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic)",
+BP,Integer,trestbps: resting blood pressure (in mm Hg on admission to the hospital),mm Hg
+Cholesterol,Integer,chol: serum cholestoral in mg/dl,mg/dl
+FBS over 120,Categorical,fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false),
+EKG results,Categorical,"restecg: resting electrocardiographic results (0: normal, 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), 2: showing probable or definite left ventricular hypertrophy by Estes' criteria)",
+Max HR,Integer,thalach: maximum heart rate achieved,
+Exercise angina,Categorical,exang: exercise induced angina (1 = yes; 0 = no),
+ST depression,Integer,oldpeak = ST depression induced by exercise relative to rest,
+Slope of ST,Categorical,"slope: the slope of the peak exercise ST segment(1: upsloping, 2: flat, 3: downsloping)",
+Number of vessels fluro,Integer,ca: number of major vessels (0-3) colored by flourosopy,
+Thallium,Categorical,thal: 3 = normal; 6 = fixed defect; 7 = reversable defect,
+Heart Disease,Integer,"num: diagnosis of heart disease (angiographic disease status)(0: < 50% diameter narrowing, 1: > 50% diameter narrowing)",
